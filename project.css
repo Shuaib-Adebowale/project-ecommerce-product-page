@@ -109,7 +109,8 @@ hr{
     justify-content: space-between;
     text-align: center;
     width: 450px;
-    margin-top: 15px;
+    margin: 15px 0;
+    
 }
 
 /* HEAD-2 */
@@ -236,10 +237,10 @@ hr{
 @media (max-width: 500px) {
     /* HERO */
     .hero{
-        display: block;
+        display: flex;
+        justify-content: space-between;
         margin: 0;
         padding: 0;
-        
     }
      ul{
         display: none;
@@ -254,7 +255,6 @@ hr{
     }
     .hero-1 img{
         height: 40px;
-        margin-top: 10px;
     }
     .hero-1 .menu{
         display: block;
@@ -262,8 +262,11 @@ hr{
     .left-content{
         margin-left: 0;
     }
+    .hero-2{
+        margin: 0;
+    }
     .hero-2 img{
-        margin-bottom: 30px;
+       margin: 10px;
     }
     .heading{
         display: none;
@@ -277,16 +280,17 @@ hr{
    .head{
     display: block;
     margin: 0;
-    
+    width: 100%;
    }
    .head-1 img{
     margin: 0;
     width: 100%;
-    border-radius: 0;
+    
    }
    .head-1{
     display: flex;
     align-items: center;    
+    width: 100%;
    }
 
    .head-1 .svy{
@@ -306,7 +310,6 @@ hr{
 .right{
  right: 4px;
 }
-
 .svy-background{
     display: block;
     width: 50px;
